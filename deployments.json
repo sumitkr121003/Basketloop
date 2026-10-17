@@ -1,0 +1,32 @@
+{
+  "network": "robinhoodTestnet",
+  "chainId": 46630,
+  "deployedAt": "2026-10-16T10:08:26.583Z",
+  "rpcUrl": "https://rpc.testnet.chain.robinhood.com/rpc",
+  "explorer": "https://explorer.testnet.chain.robinhood.com",
+  "faucets": [
+    "https://faucet.testnet.chain.robinhood.com",
+    "https://explorer.testnet.chain.robinhood.com",
+    "https://faucet.trade/robinhood-testnet-eth-faucet"
+  ],
+  "alternateRpcs": [
+    "https://rpc.testnet.chain.robinhood.com/rpc (Official)"
+  ],
+  "deployer": "0x8Ff4c0fCC34B80328B3eD8844B3B6608881609B5",
+  "keeperWallet": "0x8Ff4c0fCC34B80328B3eD8844B3B6608881609B5",
+  "contracts": {
+    "BasketLoopManager": "0xdb6E99b366a34b12c4F538F88aB819a8b0793C54",
+    "MockDEXRouter": "0x9edFD679838685527dba927B30Ac5E705C722D47",
+    "MockUSDC": "0xb7010f73f0A2217b8e863F20B5c5EA219D43eDc2",
+    "MockUSDT": "0xE1E101575606a11566adf6022294bD1a3E01c20D",
+    "MockWETH": "0xf5581b11BF5c5Cb44f1e44a21b80957FF091977b",
+    "MockARB": "0x47c1390FF38D6f391C5132A113D75E96Ae5b1565",
+    "MockLINK": "0xf653958B8a9296E245Cc4DD03584f939C417deb2",
+    "MockUNI": "0xA7924B54a1120AAE87cC59ed5cc01Dd099c70513",
+    "LimitOrderManager": "0x9894dD389A88F8D49df99432051e5ef966dCc04E"
+  },
+  "previousMockDEXRouter": "0x407B799D48fB171F4C4E964b9eD0FbcC54aa199c",
+  "routerUpgradedAt": "2026-10-16T20:41:21.870Z",
+  "limitOrderManagerDeploymentTx": "0xbb8b32a6059570fb52662f677b20f8e821fa4dd7c8946a82b9eed8c59b7876ba",
+  "limitOrderManagerDeployedAt": "2026-10-17T10:27:10.112Z"
+}

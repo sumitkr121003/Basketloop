@@ -1,0 +1,58 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and local files
+*.log
+.DS_Store
+Thumbs.db
+
+# Private keys and wallet secrets
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Wallet environment files
+wallet.env
+**/wallet.env
+
+# Next.js generated files
+.next/
+**/.next/
+
+# Local tooling and generated files
+.turbo/
+.vercel/
+.cache/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.vscode/
+
+# Hardhat generated files
+contracts/artifacts/
+contracts/cache/

@@ -1,0 +1,21 @@
+{
+  "name": "basketloop-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for BasketLoop non-custodial recurring investment protocol",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:arbitrumSepolia": "hardhat run scripts/deploy.js --network arbitrumSepolia",
+    "deploy:robinhoodTestnet": "hardhat run scripts/deploy.js --network robinhoodTestnet"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^18.0.8"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.6"
+  }
+}
